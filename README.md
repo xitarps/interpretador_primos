@@ -33,7 +33,7 @@ O programa input.file espera que se entre um numero e de enter para responder se
 ## Exemplos numeros primos
 ![numero](./numeros-primos.png)
 
-## Objetivo(Wip / work in progress)
+## Instruções nova linguagem (Wip / work in progress)
 
 | Instrução                  | Semântica                                                                                                                                  |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
