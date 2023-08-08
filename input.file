@@ -1,0 +1,59 @@
+keyboard
+store -> mem
+
+read mem
+push 1
+if less nao_primo
+pop
+
+read mem
+push 1
+if equal nao_primo
+pop
+
+read mem
+push 2
+if equal eh_primo
+pop
+
+read mem
+push 2
+module
+push 0
+if equal nao_primo
+pop
+
+read mem
+push 3
+if equal eh_primo
+pop
+
+push 3
+store -> ind
+read ind
+read mem
+
+repeat less
+pop
+read mem
+read ind
+module
+push 0
+if equal nao_primo
+pop
+read ind
+push 1
+sum
+store -> ind
+read ind
+read mem
+end_repeat
+
+label eh_primo
+push eh_primo
+print
+end
+
+label nao_primo
+push nao_primo
+print
